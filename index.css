@@ -1,0 +1,353 @@
+body {
+    background-color: #fff !important;
+}
+
+.topic-page .page-body {
+    max-width: 1200px !important;
+}
+
+/*****Begin Airjavelin*****/
+@media (max-width: 440px) {
+    .airjav-group1-text1 h1 {
+        float: none !important;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .airjav-guy {
+        float: none !important;
+    }
+
+    .airjav-blog h1 {
+        clear: both;
+        padding-top: 5% !important;
+    }
+
+    .airjav-iframe-container1 iframe {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .airjav-two-cols {
+        display: block !important;
+    }
+}
+
+.airjav-banner {
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+.airjav-iframe-container1,
+.airjav-iframe-container2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.airjav-iframe-container1 iframe,
+.airjav-iframe-container2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.airjav-group1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 100px;
+}
+
+.airjav-yotah-javPro {
+    grid-column: 1/3;
+    grid-row: 1;
+    max-width: 100%;
+    margin: auto;
+}
+
+.airjav-text {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.airjav-with-arrows {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 15%;
+}
+
+.airjav-group1-text1 {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.airjav-group1-text1 h1 {
+    /* Changed to UX Red */
+    color: #ec1b24;
+    float: right;
+}
+
+.airjav-group1-text1 p {
+    padding-bottom: 5%;
+}
+
+.airjav-iframe-container1 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.airjav-girl {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: -20%;
+}
+
+.airjav-yotah {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 65%;
+}
+
+.airjav-list {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 105%;
+    text-align: left;
+}
+
+.airjav-list ul {
+    color: black;
+    /* Corrected Font Size */
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.airjav-list h1 {
+    /* Changed to UX Red */
+    color: #ec1b24;
+}
+
+.airjav-list button {
+    margin-top: 5%;
+}
+
+.airjav-370 {
+    float: right;
+    max-width: 50%;
+    margin-top: -15%;
+}
+
+.airjav-iframe-container2 {
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: -30%;
+
+}
+
+.airjav-girl-holding {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: -60%;
+}
+
+.airjav-group1-text2 {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 75%;
+    text-align: left;
+}
+
+.airjav-blog {
+    grid-column: 2;
+    grid-row: 5;
+    width: 100%;
+}
+
+.airjav-in-co2 {
+    grid-row: 6;
+    margin-top: -50%;
+    max-width: 100%;
+    transition: ease-in-out .5s;
+}
+
+.airjav-in-co2:hover {
+    opacity: .50;
+}
+
+.airjav-guy {
+    float: left;
+    margin-right: 5%;
+}
+
+.airjav-blog h1 {
+    color: black;
+    font-size: 1.5em;
+    width: 110%;
+    text-align: left;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.airjav-blog p {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.airjav-4cols {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+}
+
+.airjav-readyair-banner {
+    margin-top: 5%;
+    transition: ease-in-out .5s;
+}
+
+.airjav-readyair-banner:hover {
+    opacity: .5;
+}
+
+.airjav-banner2 {
+    margin-bottom: 5%;
+    transition: ease-in-out .5s;
+}
+
+.airjav-banner2:hover {
+    opacity: .5;
+}
+
+.airjav-two-cols {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    margin-bottom: 5%;
+}
+
+.airjav-pcp {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.airjav-qvr {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: -7%;
+}
+
+.airjav-hps {
+    grid-column: 2;
+    margin-top: -5%;
+}
+
+.airjav-straightflight {
+    grid-row: 2;
+}
+
+.airjav-button {
+    color: white;
+    background-color: #ec1b24;
+    border-color: #ec1b24;
+    padding: 10px;
+    transition: ease-in-out .5s;
+}
+
+.airjav-button:hover {
+    transform: scale(1.2);
+}
+
+.airjav-container a {
+    text-decoration: underline;
+}
+
+@media (max-width: 901px) {
+    .airjav-container * {
+        margin: auto;
+    }
+
+    .airjav-group1 {
+        margin-top: 5%;
+    }
+
+    .airjav-group1-text1 {
+        margin-top: 5%;
+    }
+
+    .airjav-iframe-container1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .airjav-container,
+    .airjav-group1,
+    .airjav-4cols {
+        display: block;
+    }
+
+    .airjav-group1-text1 {
+        margin-bottom: 5%;
+    }
+
+    .airjav-text,
+    .airjav-iframe-container2,
+    .airjav-girl-holding {
+        display: none;
+    }
+
+    .airjav-list {
+        margin-top: 5%;
+    }
+
+    .airjav-370 {
+        max-width: 30%;
+        margin-top: -5%;
+    }
+
+    .airjav-again {
+        margin-top: 5%;
+    }
+
+    .airjav-girl {
+        margin-top: 5%;
+    }
+
+    .airjav-group1-text2 {
+        margin-top: 5%;
+    }
+
+    .airjav-blog {
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+
+    .airjav-in-co2 {
+        margin-top: 5%;
+    }
+
+    .airjav-guy {
+        margin-right: 5%;
+    }
+
+    .airjav-banner3 {
+        margin-top: 5%;
+    }
+
+    .airjav-4cols {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .airjav-readyair-banner {
+        margin-top: 5%;
+    }
+}
+
+/*****End Airjavelin*****/
